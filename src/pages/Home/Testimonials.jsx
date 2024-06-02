@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import john from "../../assets/images/hero.jpg";
+import john from "../../assets/john.jpg";
 
 const Testimonials = () => {
   const testimonials = [
@@ -41,7 +41,7 @@ const Testimonials = () => {
       position: "Frontend Developer",
       quote:
         "MUTC's focus on innovation and practical experience prepared me well for the challenges in the tech industry.",
-      image: "/images/carol-white.jpg",
+      image: "/assets/carol.jpg",
     },
     {
       id: 6,
@@ -49,7 +49,7 @@ const Testimonials = () => {
       position: "Backend Developer",
       quote:
         "The collaborative environment at MUTC pushed me to enhance my coding skills and learn new technologies.",
-      image: "/images/dave-black.jpg",
+      image: "",
     },
   ];
 
