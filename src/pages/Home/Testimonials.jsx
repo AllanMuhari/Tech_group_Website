@@ -1,5 +1,10 @@
 import { motion } from "framer-motion";
 import john from "../../assets/john.jpg";
+import Alice from "../../assets/Alice.jpg";
+import Bob from "../../assets/Bob.jpg";
+import Carol from "../../assets/carol.jpg";
+import Dave from "../../assets/dave.jpg";
+import Jane from "../../assets/jane.jpg";
 
 const Testimonials = () => {
   const testimonials = [
@@ -9,7 +14,7 @@ const Testimonials = () => {
       position: "Software Engineer",
       quote:
         "MUTC provided me with invaluable networking opportunities and helped me grow both personally and professionally.",
-      image: { john },
+      image: john,
     },
     {
       id: 2,
@@ -17,7 +22,7 @@ const Testimonials = () => {
       position: "Data Scientist",
       quote:
         "Being a part of MUTC was a game-changer for my career. The community and resources available are top-notch.",
-      image: "/assets/carol.jpg",
+      image: Jane,
     },
     {
       id: 3,
@@ -25,7 +30,7 @@ const Testimonials = () => {
       position: "UI/UX Designer",
       quote:
         "MUTC is where I discovered my passion for design. The hands-on projects and mentorship were incredibly valuable.",
-      image: "/images/alice",
+      image: Alice,
     },
     {
       id: 4,
@@ -33,7 +38,7 @@ const Testimonials = () => {
       position: "Product Manager",
       quote:
         "The skills and knowledge I gained at MUTC helped me transition into a product management role seamlessly.",
-      image: "/images/bob-brown.jpg",
+      image: Bob,
     },
     {
       id: 5,
@@ -41,7 +46,7 @@ const Testimonials = () => {
       position: "Frontend Developer",
       quote:
         "MUTC's focus on innovation and practical experience prepared me well for the challenges in the tech industry.",
-      image: "/assets/carol.jpg",
+      image: Carol,
     },
     {
       id: 6,
@@ -49,7 +54,7 @@ const Testimonials = () => {
       position: "Backend Developer",
       quote:
         "The collaborative environment at MUTC pushed me to enhance my coding skills and learn new technologies.",
-      image: "",
+      image: Dave,
     },
   ];
 
