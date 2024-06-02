@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import john from "../../assets/images/hero.jpg";
 
 const Testimonials = () => {
   const testimonials = [
@@ -8,7 +9,7 @@ const Testimonials = () => {
       position: "Software Engineer",
       quote:
         "MUTC provided me with invaluable networking opportunities and helped me grow both personally and professionally.",
-      image: "/images/john-doe.jpg",
+      image: { john },
     },
     {
       id: 2,
@@ -16,7 +17,7 @@ const Testimonials = () => {
       position: "Data Scientist",
       quote:
         "Being a part of MUTC was a game-changer for my career. The community and resources available are top-notch.",
-      image: "/images/jane-smith.jpg",
+      image: "/assets/carol.jpg",
     },
     {
       id: 3,
@@ -24,7 +25,7 @@ const Testimonials = () => {
       position: "UI/UX Designer",
       quote:
         "MUTC is where I discovered my passion for design. The hands-on projects and mentorship were incredibly valuable.",
-      image: "/images/alice-johnson.jpg",
+      image: "/images/alice",
     },
     {
       id: 4,

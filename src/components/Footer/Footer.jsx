@@ -88,7 +88,7 @@ const Footer = () => {
                 <span className="block">
                   Phone:{" "}
                   <a href="tel:+1234567890" className="hover:text-white">
-                    +1 234 567 890
+                    +254713982805
                   </a>
                 </span>
               </li>
